@@ -1,0 +1,11 @@
+C:\Projetos\MyStore\MyStore.Domain\bin\Debug\MyStore.Domain.dll
+C:\Projetos\MyStore\MyStore.Domain\bin\Debug\MyStore.Domain.pdb
+C:\Projetos\MyStore\MyStore.Domain\obj\Debug\MyStore.Domain.csprojAssemblyReference.cache
+C:\Projetos\MyStore\MyStore.Domain\obj\Debug\MyStore.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\MyStore\MyStore.Domain\obj\Debug\MyStore.Domain.dll
+C:\Projetos\MyStore\MyStore.Domain\obj\Debug\MyStore.Domain.pdb
+C:\Projetos\MyStore\MyStore.Domain\bin\Debug\DomainNotificationHelper.dll
+C:\Projetos\MyStore\MyStore.Domain\bin\Debug\DomainNotificationHelper.Validation.dll
+C:\Projetos\MyStore\MyStore.Domain\bin\Debug\MyStore.SharedKernel.dll
+C:\Projetos\MyStore\MyStore.Domain\bin\Debug\MyStore.SharedKernel.pdb
+C:\Projetos\MyStore\MyStore.Domain\obj\Debug\MyStore.Domain.csproj.CopyComplete
