@@ -1,8 +1,0 @@
-C:\Projetos\MyStore\MyStore.SharedKernel\bin\Debug\MyStore.SharedKernel.dll
-C:\Projetos\MyStore\MyStore.SharedKernel\bin\Debug\MyStore.SharedKernel.pdb
-C:\Projetos\MyStore\MyStore.SharedKernel\obj\Debug\MyStore.SharedKernel.csprojAssemblyReference.cache
-C:\Projetos\MyStore\MyStore.SharedKernel\obj\Debug\MyStore.SharedKernel.Resources.EmailTemplates.resources
-C:\Projetos\MyStore\MyStore.SharedKernel\obj\Debug\MyStore.SharedKernel.csproj.GenerateResource.cache
-C:\Projetos\MyStore\MyStore.SharedKernel\obj\Debug\MyStore.SharedKernel.csproj.CoreCompileInputs.cache
-C:\Projetos\MyStore\MyStore.SharedKernel\obj\Debug\MyStore.SharedKernel.dll
-C:\Projetos\MyStore\MyStore.SharedKernel\obj\Debug\MyStore.SharedKernel.pdb

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B9AB2C13-735C-428B-9F73-5FD67D4779B7}</ProjectGuid>
+    <ProjectGuid>{227FC372-DE77-4AEA-A509-BF2DCD94B5D6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MyStore.Domain</RootNamespace>
-    <AssemblyName>MyStore.Domain</AssemblyName>
+    <RootNamespace>MyStore.ApplicationService</RootNamespace>
+    <AssemblyName>MyStore.ApplicationService</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -34,37 +34,29 @@
     <Reference Include="DomainNotificationHelper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\DomainNotificationHelper.1.0.1\lib\DomainNotificationHelper.dll</HintPath>
     </Reference>
-    <Reference Include="DomainNotificationHelper.Validation, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\DomainNotificationHelper.Validation.1.0.3\lib\DomainNotificationHelper.Validation.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Account\Commands\UserCommands\RegisterUserCommand.cs" />
-    <Compile Include="Account\Entities\User.cs" />
-    <Compile Include="Account\Enums\ERole.cs" />
-    <Compile Include="Account\Events\UserEvents\OnUserRegisteredEvent.cs" />
-    <Compile Include="Account\Handlers\UserHandlers\IOnStudentRegisterHandler.cs" />
-    <Compile Include="Account\Repositories\IUserRepository.cs" />
-    <Compile Include="Account\Scopes\UserScopes.cs" />
-    <Compile Include="Account\Services\IUserApplicationService.cs" />
-    <Compile Include="Account\Specs\UserSpecs.cs" />
+    <Compile Include="Handlers\Account\OnUserRegisteredHandler.cs" />
+    <Compile Include="Services\Account\UserApplicationService.cs" />
+    <Compile Include="Services\Common\EmailService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ApplicationService.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Backoffice\" />
-    <Folder Include="Financial\" />
-    <Folder Include="StoreFront\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MyStore.SharedKernel\MyStore.SharedKernel.csproj">
-      <Project>{aff852b1-c6df-4f7d-9829-1df6ee233bf3}</Project>
-      <Name>MyStore.SharedKernel</Name>
+    <ProjectReference Include="..\MyStore.Domain\MyStore.Domain.csproj">
+      <Project>{b9ab2c13-735c-428b-9f73-5fd67d4779b7}</Project>
+      <Name>MyStore.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyStore.Infrastructure\MyStore.Infrastructure.csproj">
+      <Project>{8C0AF95B-3FE5-4388-AF66-BF0FD9279A1C}</Project>
+      <Name>MyStore.Infrastructure</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

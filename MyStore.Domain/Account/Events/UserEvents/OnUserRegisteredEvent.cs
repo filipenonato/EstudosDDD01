@@ -7,10 +7,10 @@ namespace MyStore.Domain.Account.Events.UserEvents
 {
     public class OnUserRegisteredEvent : IDomainEvent
     {
-        public OnUserRegisteredEvent()
+        public OnUserRegisteredEvent(User user)
         {
             Date = DateTime.Now;
-            User = User;
+            User = user;
             EmailTitle = EmailTemplates.WelcomeEmailTitle;
             EmailBody = EmailTemplates.WelcomeEmailBody;
         }
